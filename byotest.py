@@ -12,7 +12,3 @@ def test_not_in(collection, item):
     
 def test_between(a, b, c):
     assert a <= b <= c, "{0} Is between {1} and {2}".format(a, b, c)
-
-test_between(2, 3, 4)
-
-print("Test OK")
